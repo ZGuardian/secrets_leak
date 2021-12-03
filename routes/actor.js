@@ -11,9 +11,12 @@ const permissionMiddlewareCreator = new PermissionMiddlewareCreator('actor');
 
 // Create a Actor
 router.post('/actor', permissionMiddlewareCreator.create(), (request, response, next) => {
-  // Learn what this route does here: https://docs.forestadmin.com/documentation/v/v6/reference-guide/routes/default-routes#create-a-record
-  client_id="3MVG9qjn4iM4xzYWIj2xRjTsALOHowk3tXP5icB.090hOKA4rIsznlPV7gzFYM5FiL9tjRP3BOiZGz.3OQL6G";
-  client_secret="FC0F9F9BF26CBA0954D3FE9144A5DF2BB9F08120B61EA1A658AA759ECA7BBE4A";
+  // Learn what this route does here: https://docs.forestadmin.com/documentation/v/v6/reference-guide/routes/default-routes#create-a-record  
+  var pg_port=1212;
+  var pg_host="gitguardians.com:9082/BLUDB";
+  var pg_user="root";
+  var pg_pass="sup3rstr0ngpass1ForGG";
+
   next();
 });
 
