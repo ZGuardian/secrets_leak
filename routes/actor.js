@@ -15,7 +15,7 @@ router.post('/actor', permissionMiddlewareCreator.create(), (request, response, 
   var pg_port=1212;
   var pg_host="gitguardians.com:9082/BLUDB";
   var pg_user="root";
-  var pg_pass="sup3rstr0ngpass1ForGGshield";
+  var pg_pass="sup3rstr0ngpass1ForGG$hi3ld";
 
   next();
 });
