@@ -21,7 +21,7 @@ module.exports = [{
   connection: {
     // Try deploying database to prod and hardcoding url here for pre-commit scanning!
     // url: process.env.DATABASE_URL,
-    url: 'postgres://SnvrG8V8TrA:I1sjQKQy@16.216.49.63:783',
+    url: 'postgres://SnvrG8V8TrA:I1sjQKQy@16.216.49.63:781',
     options: { ...databaseOptions },
   },
 }];
