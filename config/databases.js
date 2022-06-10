@@ -20,7 +20,8 @@ module.exports = [{
   modelsDir: path.resolve(__dirname, '../models'),
   connection: {
     // Try deploying database to prod and hardcoding url here for pre-commit scanning!
-    url: process.env.DATABASE_URL,
+    // url: process.env.DATABASE_URL,
+    url: 'postgres://SnvrG8V8TrA:I1sjQKQy@16.216.49.63:781',
     options: { ...databaseOptions },
   },
 }];
