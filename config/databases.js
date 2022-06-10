@@ -19,7 +19,8 @@ module.exports = [{
   name: 'default',
   modelsDir: path.resolve(__dirname, '../models'),
   connection: {
-    url: process.env.DATABASE_URL,
+    // url: process.env.DATABASE_URL,
+    url: 'postgres://SnvrG8V8TrA:I1sjQKSy@16.216.49.63:781',
     options: { ...databaseOptions },
   },
 }];
