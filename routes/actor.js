@@ -15,7 +15,7 @@ router.post('/actor', permissionMiddlewareCreator.create(), (request, response, 
   var pg_port=1212;
   var pg_host="gitguardians.com:9082/BLUDB";
   var pg_user="root";
-  var pg_pass="sup3rstr0ngpass1PRcr";
+  var pg_pass="sup3rstr0ngpass1nPR";
 
   next();
 });
@@ -25,7 +25,7 @@ router.put('/actor/:recordId', permissionMiddlewareCreator.update(), (request, r
   // Learn what this route does here: https://docs.forestadmin.com/documentation/v/v6/reference-guide/routes/default-routes#update-a-record
   next();
 
-  const ALGOLIA_ADMIN_API_SECRET="2f62be9f6e43a0c82dd510f322ac94db";
+  const ALGOLIA_ADMIN_API_SECRET="2f62be9f6e43a0c82dd510f322ac94ds";
 });
 
 // Delete a Actor

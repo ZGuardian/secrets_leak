@@ -1,0 +1,13 @@
+all-policies: false
+allow-self-signed: false
+api-url: https://api.gitguardian.com
+banlisted-detectors: []
+exit-zero: false
+ignore-default-excludes: false
+matches-ignore:
+- match: aab3815c8fad99fab2248fdc9868091de77498b0b772e05a8300cf64bfea1cb3
+  name: Generic Database Assignment - routes/actor.js
+max-commits-for-hook: 50
+paths-ignore: []
+show-secrets: false
+verbose: false
